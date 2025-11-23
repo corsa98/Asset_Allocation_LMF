@@ -1,0 +1,16 @@
+[project]
+name = "stockpeers"
+version = "0.2.0"
+description = "Analise de carteira de investimento"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "altair>=5.5.0",
+    "pandas>=2.2.3",
+    "streamlit>=1.44.2",
+    "yfinance>=0.2.55",
+    "numpy>=1.26.0",
+    "investpy>=1.0.8",
+    "matplotlib>=3.8.0",
+    "streamlit-echarts>=0.4.0"
+]
