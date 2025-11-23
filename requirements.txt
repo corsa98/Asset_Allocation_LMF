@@ -3,9 +3,6 @@ yfinance
 numpy
 investpy
 pandas
-matplotlib.pyplot
+matplotlib
 altair
-streamlit_echarts
-st_echarts
-datetime
-timedelta
+streamlit-echarts
