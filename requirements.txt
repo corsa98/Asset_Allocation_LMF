@@ -6,3 +6,4 @@ pandas
 matplotlib
 altair
 streamlit-echarts
+seaborn
