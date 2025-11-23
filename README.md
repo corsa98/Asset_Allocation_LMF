@@ -1,1 +1,1 @@
-o projeto bisca automatizar a busca por ativos da bolsa brasileira e fazer análises de uma carteira de investimentos, como a simulação de monte carlo, a correlação dos ativos e a sua comparação com alguns indicadores como a ibovespa
+o projeto busca automatizar a busca por ativos da bolsa brasileira e fazer análises de uma carteira de investimentos, como a simulação de monte carlo, a correlação dos ativos e a sua comparação com alguns indicadores como a ibovespa.
