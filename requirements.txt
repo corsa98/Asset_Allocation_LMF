@@ -1,0 +1,11 @@
+streamlit
+yfinance
+numpy
+investpy
+pandas
+matplotlib.pyplot
+altair
+streamlit_echarts
+st_echarts
+datetime
+timedelta
