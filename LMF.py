@@ -19,21 +19,6 @@ def buscar_ativos():
     # MÉTODO 0 ACOES BRASILEIRAS
     # =============================================================================
 
-    SeP = yf.Ticker('^GSPC')
-
-    histSeP = SeP.history("2d")
-    preco_anteriorSeP = histSeP["Close"].iloc[-2]
-    preco_atualSeP = histSeP["Close"].iloc[-1]
-    varSeP = ((preco_atualSeP - preco_anteriorSeP) / preco_anteriorSeP) * 100
-    print(varSeP)
-
-    Ibov = yf.Ticker('^BVSP')
-    histIbov = Ibov.history("2d")
-    preco_anteriorIbov = histIbov["Close"].iloc[-2]
-    preco_atualIbov = histIbov["Close"].iloc[-1]
-    varIbov = ((preco_atualIbov - preco_anteriorIbov) / preco_anteriorIbov) * 100
-    print(varIbov)
-
     def get_all_brazil_stocks():
         """
         Usando investpy para pegar ações brasileiras
@@ -882,3 +867,4 @@ else:
     with right_cell:
 
         st.info("Adicione ativos à carteira para visualizar os gráficos")
+
