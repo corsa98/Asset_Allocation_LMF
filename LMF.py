@@ -34,15 +34,6 @@ def buscar_ativos():
     varIbov = ((preco_atualIbov - preco_anteriorIbov) / preco_anteriorIbov) * 100
     print(varIbov)
 
-    dol = yf.Ticker('USDBRL=X')
-    histdol = dol.history("2d")
-    preco_anteriordol = histdol["Close"].iloc[-2]
-    preco_atualdol = histdol["Close"].iloc[-1]
-    vardol = ((preco_atualdol - preco_anteriordol) / preco_anteriordol) * 100
-    print(vardol)
-
-    # dolar = yf.Ticker('')
-
     def get_all_brazil_stocks():
         """
         Usando investpy para pegar ações brasileiras
@@ -889,4 +880,5 @@ if tickers_escolhidos:
         st.error(f"Erro ao processar dados: {str(e)}")
 else:
     with right_cell:
+
         st.info("Adicione ativos à carteira para visualizar os gráficos")
